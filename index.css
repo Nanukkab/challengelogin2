@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+.container {
+    width: 30%;
+    height: 750px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-right: 2px solid white;
+}
+
+.container > img{
+    margin-top: 40%;
+    margin-left: 65px;
+}
+
+.name{
+    width: 279px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    color: white;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    background-image: url(person_24px_outlined.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+
+
+.password{
+    width: 279px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    margin-left: 70px;
+    color: white;
+    padding: 5px;
+    background-image: url(Group\ 218.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    outline: none;
+}
+
+.button {
+    width: 275px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 70px;
+}
